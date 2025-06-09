@@ -21,7 +21,8 @@ export default function Hero() {
           <h3 className="text-lg md:text-4xl">TECH TITANS</h3>
           <h3 className="text-lg md:text-4xl text-[#9B59B6]">PRESENTS YOU</h3>
           <h1 className="text-4xl md:text-6xl font-bold">
-            <span className="text-[#9B59B6]">TECHNO</span>-QUEST 3.O
+            AIEMS 
+            <span className="text-[#9B59B6]"> TECHNO</span>-QUEST 3.O
           </h1>
         </div>
       </div>
