@@ -8,7 +8,7 @@ export const About = () => {
           About Techno-Quest 3.O
         </h2>
         <p className="text-lg md:text-xl text-gray-300 leading-relaxed mb-6">
-          <span className="text-[#9B59B6] font-semibold">Techno-Quest 3.O</span> is not just a hackathon — it’s a launchpad for the next generation of innovators.
+          <span className="text-[#9B59B6] font-semibold">AIEMS Techno-Quest 3.O</span> is not just a hackathon — it’s a launchpad for the next generation of innovators.
           This 24-hour coding sprint invites students, developers, and tech enthusiasts to collaborate, build, and bring impactful ideas to life.
         </p>
         <p className="text-lg md:text-xl text-gray-400 leading-relaxed mb-6">

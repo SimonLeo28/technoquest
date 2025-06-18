@@ -15,7 +15,7 @@ export const Prizes = () => {
             <Trophy size={48} className="text-yellow-400 mx-auto mb-4" />
             <h3 className="text-2xl font-semibold mb-2 text-white">1st Place</h3>
             <p className="text-lg text-gray-300">
-              🏆 Cash Prize: <span className="text-green-400 font-bold">₹2000</span>  
+              🏆 Cash Prize: <span className="text-green-400 font-bold">₹5000</span>  
             </p>
             <p className="text-sm text-gray-400 mt-1">+ Certificate of Appreciation</p>
           </div>
@@ -25,7 +25,7 @@ export const Prizes = () => {
             <Award size={48} className="text-sky-400 mx-auto mb-4" />
             <h3 className="text-2xl font-semibold mb-2 text-white">2nd Place</h3>
             <p className="text-lg text-gray-300">
-              🥈 Cash Prize: <span className="text-green-400 font-bold">₹1500</span>  
+              🥈 Cash Prize: <span className="text-green-400 font-bold">₹3000</span>  
             </p>
             <p className="text-sm text-gray-400 mt-1">+ Certificate of Appreciation</p>
           </div>
