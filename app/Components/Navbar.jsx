@@ -67,7 +67,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/register"
-              className="mt-2 inline-block rounded bg-green-400 px-4 py-2 text-black font-semibold hover:bg-white"
+              className="mt-2 inline-block rounded bg-[#9B59B6] px-4 py-2 text-black font-semibold hover:bg-purple-600"
               onClick={() => setOpen(false)}
             >
               Register Now
