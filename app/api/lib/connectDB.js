@@ -1,21 +1,50 @@
-import mongoose from "mongoose";
+// import mongoose from "mongoose";
 
-let isConnected = false;  
+// let isConnected = false;  
 
-const DB = process.env.DATABASE_URL;
+// const DB = process.env.DATABASE_URL;
+
+// async function connectDB() {
+//   if (isConnected) {
+//     console.log("Already connected to Database...");
+//     return;
+//   }
+  
+//   try {
+//     await mongoose.connect(DB);
+//     isConnected = true;
+//     console.log("Connected to Database successfully...");
+//   } catch (error) {
+//     console.error("Database connection error:", error);
+//   }
+// }
+
+// export default connectDB;
+// connectDB.js
+import pkg from "pg";
+const { Pool } = pkg;
+
+let pool;
 
 async function connectDB() {
-  if (isConnected) {
+  if (pool) {
     console.log("Already connected to Database...");
-    return;
+    return pool;
   }
-  
+
   try {
-    await mongoose.connect(DB);
-    isConnected = true;
-    console.log("Connected to Database successfully...");
+    pool = new Pool({
+      connectionString: process.env.DATABASE_URL, // Neon PostgreSQL URL
+      ssl: {
+        rejectUnauthorized: false, // Neon requires SSL
+      },
+    });
+
+    console.log("PostgreSQL pool created successfully...");
+    return pool;
   } catch (error) {
     console.error("Database connection error:", error);
+    throw error;
   }
 }
 

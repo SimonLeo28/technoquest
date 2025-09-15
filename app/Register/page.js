@@ -54,16 +54,25 @@ export default function RegisterForm() {
             required
           />
 
-          <select
+          <input
+            type="selectedProblem"
+            name="selectedProblem"
+            value={formData.selectedProblem}
+            onChange={handleChange}
+            placeholder="Enter the selected problem statement"
+            className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white"
+            required
+          />
+
+          {/* <select
             name="selectedProblem"
             value={formData.selectedProblem}
             onChange={handleChange}
             className="w-full px-4 py-3 bg-black border border-gray-700 rounded-lg text-white"
             required
           >
-            <option value="" disabled>Select a Problem Statement</option>
-
-            {/* AI & Machine Learning */}
+            <option value="" disabled>Select a Problem Statement</option
+            {/* AI & Machine Learning *
             <optgroup label="AI & Machine Learning">
               <option>AI-Powered Mental Health Assistant</option>
               <option>Fake News Detector</option>
@@ -72,7 +81,7 @@ export default function RegisterForm() {
               <option>AI-based Sign Language Interpreter</option>
             </optgroup>
 
-            {/* Data Science / Analytics */}
+            {/* Data Science / Analytics *
             <optgroup label="Data Science / Analytics">
               <option>Campus Energy Consumption Dashboard</option>
               <option>Public Transport Optimization Model</option>
@@ -80,8 +89,7 @@ export default function RegisterForm() {
               <option>E-commerce Product Trend Analyzer</option>
               <option>Student Dropout Risk Detector</option>
             </optgroup>
-
-            {/* Full Stack / Web & App Development */}
+            {/* Full Stack / Web & App Development *
             <optgroup label="Full Stack / Web & App Development">
               <option>Smart Complaint Management Portal</option>
               <option>Crowdsourced College Notes Repository</option>
@@ -90,7 +98,7 @@ export default function RegisterForm() {
               <option>Lost and Found Portal</option>
             </optgroup>
 
-            {/* No-Code / Low-Code Projects */}
+            {/* No-Code / Low-Code Projects *
             <optgroup label="No-Code / Low-Code Projects">
               <option>Student Portfolio Builder</option>
               <option>Automated Internship Tracker</option>
@@ -99,14 +107,14 @@ export default function RegisterForm() {
               <option>College Inventory Manager</option>
             </optgroup>
 
-            {/* Event Management */}
+            {/* Event Management *
             <optgroup label="Event Management">
               <option>Smart Event Registration System</option>
               <option>Live Event Polling App</option>
               <option>Event Resource Scheduler</option>
               <option>Automated Certificate Generator</option>
             </optgroup>
-          </select>
+          </select> */}
 
           <button
             type="submit"

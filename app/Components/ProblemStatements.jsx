@@ -1,125 +1,61 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 
 const categories = [
   {
-    title: "🔹 AI & Machine Learning",
+    title: "🔹 Problem Statements for SIH-2026",
     problems: [
       {
-        title: "AI-Powered Mental Health Assistant",
+        title: "Smart Community Health Monitoring and Early Warning System for Water-Borne Diseases in Rural Northeast India",
         description:
-          "Build an AI chatbot that detects signs of stress, anxiety, or depression from user conversations and provides resources or emergency contact info.",
+        "MedTech / BioTech / HealthTech  SIH id = SIH25001",
       },
       {
-        title: "Fake News Detector",
+        title: "Smart Tourist Safety Monitoring & Incident Response System using Al, Geo-Fencing, and Blockchain-based Digital ID",
         description:
-          "Create an ML model that classifies news articles or social media posts as real or fake using NLP techniques.",
+          "Travel & Tourism SIH id = 	SIH25002",
       },
       {
-        title: "Personalized Learning Tutor",
+        title: "Low-Cost smart transportation solution for Agri produce from remote farms to nearest motorable road in NER Region",
         description:
-          "Develop an AI model that analyzes student performance data and provides personalized learning content or assessments.",
+          "Transportation & Logistics SIH id = SIH25003",
       },
       {
-        title: "AI Resume Screener",
+        title: "lmage based breed recognition for cattle and buffaloes of India",
         description:
-          "Design a tool that parses resumes and shortlists candidates based on job descriptions using semantic analysis.",
+          "Agriculture, FoodTech & Rural Development SIH id = SIH25004",
       },
       {
-        title: "AI-based Sign Language Interpreter",
+        title: "lmage based Animal Type Classification for cattle and buffaloes",
         description:
-          "Use computer vision to translate sign language gestures into text/speech in real-time.",
-      },
-    ],
-  },
-  {
-    title: "🔹 Data Science / Analytics",
-    problems: [
-      {
-        title: "Campus Energy Consumption Dashboard",
-        description:
-          "Analyze real or simulated data of electricity/water usage from campus buildings and provide usage trends, anomaly detection, and reduction suggestions.",
+          "Agriculture, FoodTech & Rural Development SIH id = SIH25005",
       },
       {
-        title: "Public Transport Optimization Model",
+        title: "Development of a Digital Farm Management Portal for lmplementing Biosecurity ileasures in Pig and Poultry Farms",
         description:
-          "Use public transport or traffic data to optimize bus routes or suggest changes to reduce travel time and cost.",
+          "Agriculture, FoodTech & Rural Development SIH id = SIH25006",
       },
       {
-        title: "Placement Prediction System",
+        title: "Development of a Digital Farm Management Portal for Monitoring aximum Residue Limits (MRL) and Antimicrobial Usage (AMU) in Livestock",
         description:
-          "Analyze historical placement data to predict the probability of students getting placed based on CGPA, skills, projects, etc.",
+          "Agriculture, FoodTech & Rural Development SIH id = SIH25007",
       },
       {
-        title: "E-commerce Product Trend Analyzer",
+        title: "Disaster Preparedness and Response Education System for Schools and Colleges",
         description:
-          "Build a dashboard that predicts product demand trends using past sales, reviews, and search popularity.",
+          "Disaster Management SIH id = SIH25008",
       },
       {
-        title: "Student Dropout Risk Detector",
+        title: "Gamified Environmental Education Platform for Schools and Colleges",
         description:
-          "Identify students at risk of dropping out using academic, attendance, and socio-economic factors.",
-      },
-    ],
-  },
-  {
-    title: "🔹 Full Stack / Web & App Development",
-    problems: [
-      {
-        title: "Smart Complaint Management Portal",
-        description:
-          "Build a system for students/faculty to raise campus issues (e.g., WiFi, electricity, maintenance), assign to departments, and track resolutions.",
+          "Smart Education SIH id = SIH25009",
       },
       {
-        title: "Crowdsourced College Notes Repository",
+        title: "Smart Crop Advisory System for Small and Marginal Farmers",
         description:
-          "A full-stack app where students can upload, rate, and download study materials categorized by subject, year, and college.",
-      },
-      {
-        title: "Eco-Marketplace Platform",
-        description:
-          "Create a web app for selling/exchanging second-hand books, electronics, and bicycles on campus.",
-      },
-      {
-        title: "Local Events Discovery Platform",
-        description:
-          "Design a platform that aggregates local or inter-college events, workshops, and fests, with RSVP and social sharing features.",
-      },
-      {
-        title: "Lost and Found Portal",
-        description:
-          "Build a simple web/mobile app to report and find lost items within campus, with image upload and item-matching feature.",
-      },
-    ],
-  },
-  {
-    title: "🔹 No-Code / Low-Code Projects",
-    problems: [
-      {
-        title: "Student Portfolio Builder (No-Code Tool)",
-        description:
-          "Using tools like Webflow or Bubble, build a drag-and-drop portfolio builder specifically for students to showcase resumes, projects, and achievements.",
-      },
-      {
-        title: "Automated Internship Tracker",
-        description:
-          "Design a no-code workflow using platforms like Airtable + Zapier/Make for managing internship applications, deadlines, and follow-ups.",
-      },
-      {
-        title: "Digital Voting Platform",
-        description:
-          "Create a no-code voting system (e.g., for student elections or polls) using tools like Glide or Adalo with real-time results.",
-      },
-      {
-        title: "No-Code Feedback System",
-        description:
-          "Develop a feedback form system with dashboards using tools like Jotform + Google Sheets + Google Data Studio.",
-      },
-      {
-        title: "College Inventory Manager",
-        description:
-          "Build an inventory system to manage lab equipment, hostel items, or sports gear using Airtable or Notion.",
+          "Agriculture, FoodTech & Rural Development SIH id = SIH25010",
       },
     ],
   },
@@ -176,6 +112,8 @@ export const ProblemStatements = () => {
             </div>
           </div>
         ))}
+        <button className="p-3 bg-[#9B59B6] rounded-lg flex justify-center items-center">
+          <a href="https://sih.gov.in/sih2025PS">Click here for more problem statements</a></button>
       </div>
     </section>
   );
