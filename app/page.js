@@ -6,6 +6,7 @@ import { ProblemStatements } from "./Components/ProblemStatements";
 import { Prizes } from "./Components/Prizes";
 import { Footer } from "./Components/Footer";
 import LogoSection from "./Components/LogoSection";
+import Committee from "./Components/Committee";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <LogoSection />
       <About />
+      <Committee />
       <ProblemStatements />
       <Prizes />
       <Footer />
