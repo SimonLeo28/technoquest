@@ -3,6 +3,8 @@ import sihlogo from "../assets/sihlogo.webp"
 import Image from "next/image";
 import logo1 from "../assets/logo1.jpg"
 import logo8 from "../assets/logo8.jpg"
+import MoE from "../assets/MoE.jpg"
+import MOEE from "../assets/MOEE.svg"
 
 
 export default function Hero() {
@@ -22,7 +24,9 @@ export default function Hero() {
         <div className="relative z-10 flex flex-col items-center justify-center h-full space-y-4 font-oswald">
           <div className="flex gap-4">
             <Image src={logo1} alt="SIH Logo" className="w-32 h-12 rounded-xl md:w-32 md:h-28 mb-4" />
+            <Image src={MoE} alt="SIH Logo" className="w-32 h-12 rounded-xl md:w-48 md:h-28 mb-4" />
               <Image src={sihlogo} alt="SIH Logo" className="w-32 h-12 rounded-xl md:w-48 md:h-28 mb-4" />
+              <Image src={MOEE} alt="SIH Logo" className="bg-white w-36 h-12 rounded-xl md:w-52 md:h-28 mb-4" />
             <Image src={logo8} alt="SIH Logo" className="w-32 h-12 rounded-xl md:w-48  md:h-28 mb-4" />
           </div>
           <h2 className="text-xl md:text-4xl">AMRUTA INSTITUTE OF ENGINEERING AND MANAGEMENT SCIENCES</h2>
