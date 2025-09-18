@@ -5,7 +5,7 @@ const Committee = () => {
     { role: "Student Co-ordinator", name: "Mr. Simon Leo Alexander" },
     { role: "Student Co-ordinator", name: "Mr. Nirvan M" },
     { role: "Chief Coordinator & SPOC", name: "Dr. Kumar B I D" },
-    { role: "IIC Convener", name: "Dr. Pratibhadevi T" },
+    { role: "IIC Convener", name: "Dr. Pratibhadevi Tapashetti" },
     { role: "Dean Academic", name: "Dr. Rajeshwar Kadadevaramath" },
     { role: "Principal", name: "Dr. Santosh M. Muranal" },
   ];
