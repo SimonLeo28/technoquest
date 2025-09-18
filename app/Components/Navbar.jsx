@@ -41,7 +41,7 @@ export default function Navbar() {
           ))}
           <li>
             <Link
-              href="/Register"
+              href="https://forms.gle/FnVGmJ3EPpLGfRQq5"
               className="ml-4 rounded bg-[#9B59B6] px-4 py-1 text-black font-semibold hover:bg-purple-600 transition"
             >
               Register Now
