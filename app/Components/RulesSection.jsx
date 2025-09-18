@@ -1,12 +1,16 @@
 export default function RulesSection() {
   const rules = [
     "All participants must register before the deadline.",
-    "No AI will be allowed to be used by the students.",
+    "No AI(ALLOWED FOR RESEARCH BEFORE HACKATHON) will be allowed to be used by the students ON THE DAY OF THE HACKATHON.",
     "It is mandatory for all participants to wear their ID cards during the event.",
     "It is mandatory for all participants to connect to the event's Wi-Fi network.",
     "Mobile phones must be kept on silent mode during sessions.",
     "Decisions of the judges/organizers will be final.",
     "max 6 Members per team including leader.",
+    "Plagiarism will lead to immediate disqualification.",
+    "Teams must adhere to fair practices.",
+    "Use your own equipments.",
+    "Participants must have a report on the solution or project and there must be a ppt for the same."
   ];
 
   return (
