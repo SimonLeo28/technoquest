@@ -10,7 +10,8 @@ export default function RulesSection() {
     "Plagiarism will lead to immediate disqualification.",
     "Teams must adhere to fair practices.",
     "Use your own equipments.",
-    "Participants must have a report on the solution or project and there must be a ppt for the same."
+    "Participants must have a report on the solution or project and there must be a ppt for the same.",
+    "One FEMALE MEMBER is mandatory in each team.",
   ];
 
   return (
