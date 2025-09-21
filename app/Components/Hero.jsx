@@ -3,7 +3,7 @@ import sihlogo from "../assets/sihlogo.webp"
 import Image from "next/image";
 import logo1 from "../assets/logo1.jpg"
 import logo8 from "../assets/logo8.jpg"
-import MoE from "../assets/MoE.jpg"
+import MoE from "../assets/logo7.jpg"
 import MOEE from "../assets/MOEE.svg"
 
 
