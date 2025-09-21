@@ -4,6 +4,8 @@ const Committee = () => {
   const members = [
     { role: "Student Co-ordinator", name: "Mr. Simon Leo Alexander" },
     { role: "Student Co-ordinator", name: "Mr. Nirvan M" },
+    { role: "Faculty Co-ordinator", name: "Mr. Nagangouda K H" },
+    { role: "Faculty Co-ordinator", name: "Mr. Vivek R" },
     { role: "Chief Coordinator & SPOC", name: "Dr. Kumar B I D" },
     { role: "IIC Convener", name: "Dr. Pratibhadevi Tapashetti" },
     { role: "Dean Academic", name: "Dr. Rajeshwar Kadadevaramath" },
