@@ -15,7 +15,7 @@ const QualifiedTeams = () => {
     // From first image
     { team: "AIML1", leader: "Dhanush" },
     { team: "Dream Team", leader: "Anjushree D." },
-    { team: "Aniketh Choudigar and Team", leader: "Aniketh Choudigar" },
+    { team: "ECE Coders", leader: "Aniketh Choudigar" },
     { team: "Tech Buddies", leader: "Dickson Devadason" },
     { team: "Tech Builders", leader: "Adithya T.A." },
     { team: "Brain Bridge", leader: "Nisarga G" },
