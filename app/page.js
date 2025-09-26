@@ -8,6 +8,7 @@ import { Footer } from "./Components/Footer";
 import LogoSection from "./Components/LogoSection";
 import Committee from "./Components/Committee";
 import RulesSection from "./Components/RulesSection";
+import QualifiedTeams from "./Components/QualifiedTeams";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <LogoSection />
       <About />
       <Committee />
+      <QualifiedTeams />
       <ProblemStatements />
       <RulesSection />
       <Prizes />
